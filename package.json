@@ -1,0 +1,12 @@
+{
+  "name": "changesets-monorepo",
+  "version": "1.0.0",
+  "description": "Generate changelog independently for monorepo using changesets",
+  "repository": "git@github.com:NotFounds/changesets-monorepo.git",
+  "author": "Iori IKEDA <NotFounds8080@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
