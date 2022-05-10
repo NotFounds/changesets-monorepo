@@ -11,5 +11,11 @@
   ],
   "devDependencies": {
     "@changesets/cli": "^2.22.0"
+  },
+  "scripts": {
+    "bump": "yarn changeset version",
+    "release": "yarn changeset tag && git push --follow-tags",
+    "pre-release": "yarn changeset pre enter next && yarn run bump && git add \".changeset/pre.json\" && git commit -m \"Enter Pre-release mode and version packages\" && yarn run release",
+    "exit-pre-release": "yarn changeset pre exit"
   }
 }
