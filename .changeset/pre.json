@@ -1,5 +1,5 @@
 {
-  "mode": "pre",
+  "mode": "exit",
   "tag": "next",
   "initialVersions": {
     "@notfounds/test-pkg1": "1.0.0",
