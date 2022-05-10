@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "@notfounds/test-pkg1": "1.0.0",
+    "@notfounds/test-pkg2": "0.0.0"
+  },
+  "changesets": [
+    "chatty-ravens-vanish"
+  ]
+}
