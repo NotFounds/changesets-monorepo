@@ -1,0 +1,13 @@
+{
+  "name": "@notfounds/test-pkg2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notfounds/changesets-monorepo.git",
+    "directory": "packages/test-pkg2"
+  },
+  "version": "0.0.0",
+  "description": "test package",
+  "main": "index.js",
+  "author": "NotFounds",
+  "license": "MIT"
+}
