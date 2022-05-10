@@ -30,7 +30,7 @@ jobs:
         uses: notfounds/changesets-action@main
         with:
           publish: yarn changeset publish
-          labels: "release,test label,test-label2"
+          labels: "release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
