@@ -17,6 +17,6 @@
     "bump": "yarn changeset version",
     "release": "yarn changeset publish && git push origin HEAD --follow-tags",
     "pre-release": "yarn changeset pre enter next && yarn run bump && git add . && git commit -m \"Enter Pre-release mode and version packages\" && yarn run release",
-    "exit-pre-release": "yarn changeset pre exit"
+    "exit-pre-release": "yarn changeset pre exit && git add \".changeset/pre.json\" && git commit -m \"Exit Pre-release mode\""
   }
 }
