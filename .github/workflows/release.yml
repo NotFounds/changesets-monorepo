@@ -27,7 +27,7 @@ jobs:
         run: yarn
 
       - name: Create Release Pull Request
-        uses: notfounds/changesets-action@feat-enable-to-add-labels
+        uses: notfounds/changesets-action@main
         with:
           publish: yarn changeset publish
           labels: "release"
