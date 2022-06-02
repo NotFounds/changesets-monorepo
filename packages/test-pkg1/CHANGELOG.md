@@ -1,5 +1,11 @@
 # @notfounds/test-pkg1
 
+## 1.0.1
+
+### Patch Changes
+
+- [`04ca46c`](https://github.com/NotFounds/changesets-monorepo/commit/04ca46c3b9e55ff3222755d08fc81cab093cae55) Thanks [@NotFounds](https://github.com/NotFounds)! - Patch release test
+
 ## 1.0.1-next.0
 
 ### Patch Changes
